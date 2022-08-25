@@ -1,10 +1,19 @@
+import Image from 'next/image'
+
 export default {
   github: 'https://github.com/shuding/nextra',
   docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
   titleSuffix: ' – Nextra',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline" content="../public/seam-logo.png"/>
+      <span className="font-extrabold">SΣVM</span>
+      {/* <span className="mr-2 font-extrabold hidden md:inline">
+        <Image
+          src="/../public/seam-logo.png"
+          width={100}
+          height={30}
+        />
+      </span> */}
     </>
   ),
   head: (
@@ -59,6 +68,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © Seam Money.</>,
   unstable_faviconGlyph: '👋',
 }
