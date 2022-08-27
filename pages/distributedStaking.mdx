@@ -1,0 +1,20 @@
+# Distributed staking
+a mechanism to deploy stake across multiple validators via a single entry point
+
+Seam allows users to split stake deposits across multiple validators. 
+This is ideal not only for decentralization of the network, but also also creates a more stable ROI for the 'staker' as rewards fluctuate with validator performance(voting performance)
+
+reward rate on aptos
+
+rewards_rate = Maximum possible reward * (Remaining lockup / Maximum lockup)
+
+Reward = Maximum possible reward * (Remaining lockup / Maximum lockup) * (Number of successful votes / Total number of blocks in the current epoch)
+
+
+
+
+This is done in the seam protocol through the use of the OwnerCapability mechanism provided by the staking module.
+ with this custodian model the seam protocol is able to mint a token that bears the ownership of the staked APT.
+  This is important because it allows the right to claim the stake deposit, plus accrued staking fees.
+
+
