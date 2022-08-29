@@ -2,6 +2,8 @@
   "index": "Introduction",
   "get-started": "Get Started",
   "Staking" : "Staking",
-  "Distributed-Staking" : "Distributed Staking"
+  "Distributed-Staking" : "Distributed Staking",
+  "Distributed composables" : "Distributed composables",
+  "DAO": "Seam DAO"
 
 }
