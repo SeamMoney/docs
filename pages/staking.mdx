@@ -3,15 +3,7 @@ import Bleed from 'nextra-theme-docs/bleed'
 # Stake with Seam
 
 Seam allows users to deploy and manage stake across multiple validators
-
-
-## Why stake with Seam?
-
-Seam allows users to split stake deposits across multiple validators. 
-This is ideal not only for decentralization of the network, but also also creates a more stable ROI for the 'staker',
-and allows the user to stake any amount below the minimum stake requirements of a validator,
- or above the stake capacity of a single validator.
- as rewards fluctuate with validator performance and is dependent on its inclusion in the validator set
+ and transfer the ability to claim the stake deposit plus accrued yield(staking fees)
 
  ### How you can deploy stake to validators with seam
 
@@ -32,12 +24,14 @@ and allows the user to stake any amount below the minimum stake requirements of 
 
 result: user holds a MoveResource of a Token minted by the seam protocol which when transfered back 
  to the protocol is redemed for the initial stake and the stake fees generated
+ 
 ### After Staking
 
 after a user has created the position above they are able to manage it the following ways
 
 ### claim rewards
 in the aptos staking mechanism rewards are Distributed at the end of every epoch. At this time
+ at this time users can claim their stake rewards with  
 
  
 ### sell staked position
@@ -56,5 +50,8 @@ in the aptos staking mechanism rewards are Distributed at the end of every epoch
      result(original staker): staker created an mechanism to speculate on net value of a
     result: staker created an mechanism to speculate on net value
 
+
 ### conditionally sell position(portion or whole)
-    the provider of stake would like
+    the provider of stake would like to hedge their risk they can add a conditional on their stake deposit.
+    some examples of conditions might be price
+
