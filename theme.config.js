@@ -1,12 +1,12 @@
 import Image from 'next/image'
 
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/SeamMoney',
+  docsRepositoryBase: 'https://github.com/SeamMoney/docs',
+  titleSuffix: '- docs',
   logo: (
     <>
-      <span className="font-extrabold">SΣVM</span>
+      <span className="font-bold">SΣVM</span>
       {/* <span className="mr-2 font-extrabold hidden md:inline">
         <Image
           src="/../public/seam-logo.png"
