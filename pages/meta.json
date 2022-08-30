@@ -1,9 +1,9 @@
 {
   "index": "Introduction",
-  "Staking" : "Staking",
+  "Staking" : "Staking With Seam",
   "Distributed-Staking" : "Distributed Staking",
-  "stakingFAQ" : "Staking FAQ",
-  "Distributed composables" : "Distributed composables",
-  "DAO": "Seam DAO"
-
+  "composables" : "Composables",
+  "stakingFAQ" : "Staking + more FAQ",
+  "DAO": "Seam DAO",
+  "Roadmap": "Roadmap + goals"
 }
