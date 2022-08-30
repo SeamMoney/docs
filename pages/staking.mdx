@@ -8,15 +8,15 @@ Seam allows users to deploy and manage stake across multiple validators
  ### How you can deploy stake to validators with seam
 
  flow 1: currated validator sets
-    -user selects a stake period
-    - deploy stake accross 4 high-performance validators not at staking capacity
-    - user 
+    * user selects a stake period
+    * deploy stake accross 4 high-performance validators not at staking capacity
+    * user 
     motivations: user does not operate a validator
                 user is uncomfortable deploying and managing stake via the CLI
                 user would like to speculate 
 
- flow 2: user selected validator set
-    -user stakes on validators of their choosing
+ flow 2: ~*user selected validator set*~
+     *user stakes on validators of their choosing
 
     motivations: user operates validators and would like to optimize capital accross their set
                 user would like to adjust their exposure to staked asset
@@ -25,7 +25,7 @@ Seam allows users to deploy and manage stake across multiple validators
 result: user holds a MoveResource of a Token minted by the seam protocol which when transfered back 
  to the protocol is redemed for the initial stake and the stake fees generated
  
-### After Staking
+## After Staking
 
 after a user has created the position above they are able to manage it the following ways
 
@@ -37,21 +37,22 @@ in the aptos staking mechanism rewards are Distributed at the end of every epoch
 ### sell staked position
     sell on the 'open market' - via our app or any nft marketplace
   sale formats:
-                        -fixed price
-                        -dutch auction (decending price auction,price lowers at a set rate, no time limit)
-                        -traditional auction (buyer sets opening and time limit)
+                        *fixed price
+                        *dutch auction (decending price auction,price lowers at a set rate, no time limit)
+                        *traditional auction (buyer sets opening price and time limit)
     motivation:
-            - staker no longer wants their funds tied up
-            - staker belives current value of staked position is greater than the value at unlock
+            * staker no longer wants their funds tied up
+            * staker belives current value of staked position is greater than the value at unlock
 
-    this sale could be denomiated in any coin,
-     but to pull apart the motivations of each party lets assume it was sold for the same asset that was staked
+this sale could be denomiated in any coin,
+ but to pull apart the motivations of each party lets assume it was sold for the same asset that was staked
 
-     result(original staker): staker created an mechanism to speculate on net value of a
-    result: staker created an mechanism to speculate on net value
+    result(original staker): staker created an mechanism to speculate on net value of staked asset + stake yield
+    result(buyer): buyer now holds the right right to claim stake rewards, relock and claim the stake deposit at the end of the time lock
 
 
 ### conditionally sell position(portion or whole)
     the provider of stake would like to hedge their risk they can add a conditional on their stake deposit.
-    some examples of conditions might be price
+    some examples of conditions might be price of APT
+
 
