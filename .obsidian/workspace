@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "2583969854f8f955",
+    "type": "split",
+    "children": [
+      {
+        "id": "78191aaa653ba5dc",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2eab53f2293f1b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a749a5b9391c102f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00ca86402ebcd6a0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "425dc29c112dd29e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d6b5dd428b21aea9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cecc173a2f021c20",
+    "type": "split",
+    "children": [
+      {
+        "id": "e79c8e7955f158e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e133b147ccb8343",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ea49c1d9b6a769c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "784f131434870196",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f7c1cec2c9d3b944",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "78191aaa653ba5dc",
+  "lastOpenFiles": [
+    "pages/DAO.mdx",
+    "pages/composables.md",
+    "pages/distributedStaking.mdx",
+    "pages/distributedStaking.md",
+    "pages/index.md",
+    "pages/staking.md",
+    "pages/Tokenomics.mdx",
+    "composables.md",
+    "pages/Roadmap.md",
+    "2022-09-10.md"
+  ]
+}
