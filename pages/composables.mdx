@@ -6,6 +6,7 @@ seam pools are multi-protocol composite positions for staking, pools,lending, on
 
 these give users the ability to hold a diverse set of positions across different dapps.
 
+Genesis Seam Sets 
 ## Types + examples of protocols we are are considering integrating:
 
 * [LiquidSwap](https://liquidswap.com/#/)
@@ -51,3 +52,13 @@ some composables could roughly be the following: - a pool with fixed ratio depos
 The Dao will be responsible for deploying these composables at first, which any users will be able to create a tokenized position from. [the Dao]("www.seam.money/governance")
 
 from here the dao will work towards integrating the the interface for the creation of these composables
+
+### Seam Set Performance Assessments
+
+Performance is based on this equation:
+
+```math
+Score(SeamSet) = (\frac{Performance_{fund}}{Performance_{max}}W_{performance}) + (\frac{AUM_{fund}}{AUM_{max}}W_{aum}) + (\frac{NOD_{fund}}{NOD_{max}}W_{nod})
+```
+
+The time duration for performance measure is applied for inception, 30 day, and 7 day windows.
