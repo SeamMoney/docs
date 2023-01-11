@@ -1,29 +1,33 @@
 {
   "main": {
-    "id": "2583969854f8f955",
+    "id": "bb672bcf3a58702f",
     "type": "split",
     "children": [
       {
-        "id": "78191aaa653ba5dc",
+        "id": "2cba384dcdb43d58",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "2022-12-01.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c2eab53f2293f1b5",
+    "id": "b59398c1b156a281",
     "type": "split",
     "children": [
       {
-        "id": "a749a5b9391c102f",
+        "id": "2f1e8e015b993dd1",
         "type": "tabs",
         "children": [
           {
-            "id": "00ca86402ebcd6a0",
+            "id": "88b460488def5acd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -31,7 +35,7 @@
             }
           },
           {
-            "id": "425dc29c112dd29e",
+            "id": "82830fe9d50e0729",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -46,33 +50,35 @@
             }
           },
           {
-            "id": "d6b5dd428b21aea9",
+            "id": "3a3e9c962bc3b84d",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "cecc173a2f021c20",
+    "id": "0f863efa22c951c5",
     "type": "split",
     "children": [
       {
-        "id": "e79c8e7955f158e9",
+        "id": "3029ff8214e75468",
         "type": "tabs",
         "children": [
           {
-            "id": "4e133b147ccb8343",
+            "id": "a94c890ea38f0bcb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2022-12-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,18 +90,19 @@
             }
           },
           {
-            "id": "ea49c1d9b6a769c2",
+            "id": "07ac3c7b76b8e20f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2022-12-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "784f131434870196",
+            "id": "0003401e0692c5da",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -106,11 +113,13 @@
             }
           },
           {
-            "id": "f7c1cec2c9d3b944",
+            "id": "815c31fa34ab2a29",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2022-12-01.md"
+              }
             }
           }
         ]
@@ -120,17 +129,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "78191aaa653ba5dc",
+  "active": "82830fe9d50e0729",
   "lastOpenFiles": [
-    "pages/DAO.mdx",
-    "pages/composables.md",
-    "pages/distributedStaking.mdx",
-    "pages/distributedStaking.md",
-    "pages/index.md",
-    "pages/staking.md",
-    "pages/Tokenomics.mdx",
-    "composables.md",
-    "pages/Roadmap.md",
-    "2022-09-10.md"
+    "readme.md",
+    "www.seam.money/trade.md"
   ]
 }

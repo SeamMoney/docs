@@ -1,22 +1,38 @@
-# [Nextra](https://nextra.vercel.app)
+# Syntax
 
-_Warning: this project is not production ready, API might change without notice._
+Syntax is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
-[![](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra&c=1)
+## Getting started
 
-**Nextra** is a [Next.js](https://nextjs.org) and [MDX](https://mdxjs.com) powered, no-code site generator.
+To get started with this template, first install the npm dependencies:
 
-![](/public/demo.png)
+```bash
+npm install
+cp .env.example .env.local
+```
 
-## Development
+Next, run the development server:
 
-The code of Nextra is under the [`core`](https://github.com/shuding/nextra/tree/core) branch.
+```bash
+npm run dev
+```
 
-## Themes
+Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-- [nextra-theme-docs](https://github.com/vercel/swr-site) ([demo](https://swr.vercel.app))
-- [nextra-theme-blog](https://github.com/shuding/site) ([demo](https://shud.in))
+## Customizing
 
----
+You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
 
-Created by [@shuding](https://github.com/shuding) and [@pacocoursey](https://github.com/pacocoursey) at [Vercel](https://vercel.com). Released under the MIT license.
+## License
+
+This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+
+## Learn more
+
+To learn more about the technologies used in this site template, see the following resources:
+
+- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
+- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
+- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+- [Markdoc](https://markdoc.io) - the official Markdoc documentation
+- [DocSearch](https://docsearch.algolia.com) - the official DocSearch documentation
