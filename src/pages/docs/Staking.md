@@ -4,7 +4,7 @@ import Bleed from 'nextra-theme-docs/bleed'
 
 Seam allows users to deploy and manage stake across multiple validators
  and transfer the ability to claim the stake deposit plus accrued yield(staking fees
- ### How you can deploy stake to validators with seam
+ ## How you can deploy stake to validators with seam
 
  flow 1 - currated validator sets
     * user selects a stake period
@@ -29,12 +29,12 @@ result: user holds a Token minted by the seam protocol which when transfered bac
 
 after a user has created the position above they are able to manage it the following ways
 
-### claim rewards
+## claim rewards
 in the aptos staking mechanism rewards are Distributed at the end of every epoch. At this time
  at this time users can claim their stake rewards with  
 
  
-### sell staked position
+## sell staked position
     sell on the 'open market' - via our app or any nft marketplace
   sale formats:
                         * fixed price
@@ -51,13 +51,13 @@ this sale could be denominated in any coin,
     result(buyer): buyer now holds the right right to claim stake rewards, relock and claim the stake deposit at the end of the time lock
 
 
-### conditionally sell position(portion or whole)
+## conditionally sell position(portion or whole)
     the provider of stake would like to hedge their risk they can add a conditional on their stake deposit.
     some examples of conditions might be price of APT on a dex on aptos 
 
 
 
-# Distributed staking
+## Distributed staking
 a mechanism to deploy stake across multiple validators via a single entry point and transfer the right to claim the stake deposit + stakin
 
 Seam allows users to split stake deposits across multiple validators. 
@@ -102,12 +102,12 @@ LP fees in a single pool are inconsistent because volume exchanged in these pool
 staking is generally viewed as a safer option than providing liquidity for a pool since its dependent 
  on the security of the core of the chain
 
-### what are the drawbacks of staking?
+## what are the drawbacks of staking?
 
 with a traditional staking mechanism a user cannot withdraw their funds at an instants' notice.
 when staking within an L1 the staker has exposure to a single token and are unable to respond to impermenent loss accrued.
 
-### What determines the APY of staking on aptos
+## What determines the APY of staking on aptos
     the stake fees accumulated by the are impacted by two things in the aptos ecosystem.
     1. number of successful votes cast
     2. the remaining lockup period
